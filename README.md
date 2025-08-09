@@ -1,0 +1,1 @@
+Exercícios resolvidos do Curso de Python do Guanabara - Mundo 1
