@@ -68,3 +68,44 @@ Exercício 18:
 
         Lê um ângulo e devolve o seno, cosseno e tangente usando as funções de math.
 
+
+Exercício 19:
+        Pede o nome de 4 alunos coloca-os em uma lista faz sorteio de 1 nome: escolha = random.choice(lista_alunos)
+
+Exercício 20:
+
+        Pede o nome de 4 alunos coloca-os em uma lista e refaz a ordem da lista aleatoriamente:random.shuffle(lista_alunos)
+
+Exercício 21:
+
+        Toca um arquivo MP3.
+
+Exercício 22:
+
+        Lê o nome completo de uma pessoa e O mostra todas as letras maiúsculas, minúsculas, conta os caracteres, Mostra somente o primeiro nome e quantos caracteres há no primeiro nome.
+        - nome.upper()
+        - nome.lower()
+        - nome_sem_espaco = nome.replace(" ", "")
+        - len(nome_sem_espaco)
+        - nome_cortado = nome.split()
+        - len(nome_cortado[0])
+
+Exercício 23:
+
+        Ao entrar com um número entre 0 e 9999, devolve a unidade, dezena, centena e milhar separadamente.
+        Duas resoluções:
+        - Ou transforma em uma lista
+        - Ou retira a parte inteira do número dividindo por 1, 10, 100, 1000 de pois calcula o resto dividindo por 10. 
+                u = num // 1 % 10
+                d = num // 10 % 10
+                c = num // 100 % 10
+                m = num // 1000 % 10
+
+Exercício 24: 
+
+        Le o nome de uma cidade e diz se ela começa ou não com o nome “SANTO”.
+        Duas resoluções:
+        - Ou divide os nomes da cidade e testa se a posição 0 está em 'SANTO'
+        - Ou faz o teste se os primeiros 5 caracteres correspondem a 'SANTO' após passá-los a maíusculo.
+        
+
