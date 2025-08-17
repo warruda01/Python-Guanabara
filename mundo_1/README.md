@@ -108,4 +108,34 @@ Exercício 24:
         - Ou divide os nomes da cidade e testa se a posição 0 está em 'SANTO'
         - Ou faz o teste se os primeiros 5 caracteres correspondem a 'SANTO' após passá-los a maíusculo.
         
+Exercício 25:
+        Le o nome de uma pessoa e diz se ele tem “SILVA”.
+        Duas resoluções:
+        - Divide a sttring em uma lista e usa um FOR percorrendo todas as posições após transformar em upper()
+        - Ou faz verifica através de "in" se a palavra 'silva' está na string
 
+Exercício 26:
+        Lê uma frase e conta quantas vezes a letra 'A' aparece, qual a posição da primeira vez
+        que aparece (usando .format(frase.find('A')+1)) e a ultima posição (usando .format(frase.find('A')+1)).
+
+Exercício 27:
+        Lê um nome completo e mostra o primeiro e último nome. Usa o split() para transformar
+        em uma lista e nome[0] e nome[len(nome)-1]
+
+Exercício 28:
+        Pede um número para usuário e verifica se é o mesmo usado pelo computador.
+        Uso da randomint e sleep (timer)
+
+Exercício 29:
+        Lê a velocidade de um carro e devolve o valor da multa conforme os KM
+        além da vel permitida. Usa IF
+
+Exercício 30:
+        Lê um número qualquer e responde se é par ou ímpar usando IF e % (resto da divisão)
+
+Exercício 31
+        recebe a kilometragem da viagem para determinar o valor da passagem usando IF
+
+Exercício 32
+        Calcula se o ano fornecido é bissexto. Se for fornecido o 0, é calculado o ano atual usando ano = date.today().year.
+        Fórmula ano bissexto: if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
