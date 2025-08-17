@@ -139,3 +139,15 @@ Exercício 31
 Exercício 32
         Calcula se o ano fornecido é bissexto. Se for fornecido o 0, é calculado o ano atual usando ano = date.today().year.
         Fórmula ano bissexto: if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
+
+Exercicio 33:
+        Dado três números, indica o menor e o maior dentre os três
+
+Exercicio 34:
+        Dado o salário de um funcionário, retorna com acréscimo de 10 ou 15% dependendo do salário atual
+
+Exercicio 35:
+        Dados 3 segmentos de reta o programa informa se é possível formar um triângulo. Basicamente a soma dos comprimentos de dois lados quaisquer de um triângulo deve ser sempre maior que o comprimento do terceiro lado.
+
+Aula_11_Cores:
+        Nessa aula, vamos aprender como utilizar os códigos de escape sequence ANSI para configurar cores para os seus programas em Python. Veja como utilizar o código \033[m com todas as suas principais possibilidades
