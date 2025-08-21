@@ -21,5 +21,5 @@ elif 19 < idade <= 25:
     mensagem = "SÊNIOR"
 elif idade > 25:
     mensagem = "MASTER"
-
-print(f"Classificação: {mensagem}")
+print(f"""O atleta tem {idade} anos.
+Classificação: {mensagem}""")
